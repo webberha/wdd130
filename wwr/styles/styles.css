@@ -6,3 +6,76 @@
     background-color: white;
     color: steelblue;
 }
+.content {
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+    right: auto;
+    left: auto;
+    top: 0 auto;
+    bottom: 0 auto;
+}
+#background {
+    height: 725px;
+    background-color: black;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: #fcfbfb;
+}
+header {
+    background-color: rgb(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+.book, .join {
+    background-color: black; 
+    color: aqua;
+}
+.book:hover, .join:hover {
+    background-color: black;
+    color: aqua;
+}
+.msg {
+    background-color: black;
+}
+footer {
+    background-color: black;
+    color: aqua;
+}
+footer a {
+    color: aqua;
+}
+footer a:hover {
+    color: aqua
+}
+.home-title {
+    color: #d9c2a3;
+}
+h4 {
+    color: aqua;
+}
+.msg h2 {
+    color: aqua;
+}
+.msg p {
+    color: aqua;
+}
+
+
