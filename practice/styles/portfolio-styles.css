@@ -1,0 +1,22 @@
+#desk { 
+    height: 5px;
+    width: 5px;
+    background-color: #555;
+    border-radius: 50%;
+     }
+  #graphic {
+    height: 5px;
+    width: 5px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  #person {
+    height: 5px;
+    width: 5px;
+    background-color: #555;
+    border-radius: 50%;
+}
+ body {
+     text-align: center;
+
+ }
