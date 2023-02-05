@@ -8,6 +8,8 @@
 #background {
     height: 725px;
     background-color: black;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 nav a {
     text-align: center;
@@ -57,6 +59,7 @@ nav a:hover {
     background-color: black;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 100px;
 }
 footer {
     background-color: #622D3A;
@@ -117,7 +120,7 @@ footer .social img {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid #d9c2a3
+    border: 10px solid #352510
 }
 main section img {
     box-sizing: border-box;
