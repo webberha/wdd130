@@ -14,7 +14,7 @@
 nav a {
     text-align: center;
     color: #fcfbfb;
-    text-align: center;
+    text-decoration: none;
     padding: 35px;
 }   
 #hero-msg h1, #hero-msg h4 {
@@ -73,6 +73,10 @@ footer a {
 }
 footer a:hover {
     color: #E4C7BB;
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.2em;
 }
 
 h4 {
