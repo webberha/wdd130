@@ -75,61 +75,81 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px, 500px;
+
 }
+
 .red3 {
-  width: 100px; 
-  height: 100px; 
+  width: 200%; 
+  height: 125px; 
   background-color: red; 
+  grid-column: 1/6;
+   
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 475px; 
+  height: 300px; 
   background-color: green;
+  grid-column-end: 4;
+  grid-column-start: 1;
+  
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 450px; 
+  height: 300px; 
   background-color: gold; 
+  grid-column-end: 7;
+  grid-column-start: 4;
 } 
 .blue3 {
-  width: 100px;
-  height: 100px; 
+  width: 200%;
+  height: 125px; 
   background-color: blue; 
+  grid-column: 1/6;
 } 
 /* Activity 4 styles */ 
-.content4 {
+ .content4 {
+  display: grid;
+  grid-template-columns: 1fr, 3fr
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
-} 
+width: 100px; 
+height: 100px; 
+background-color: red;
+}
 .green4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+width: 100px; 
+height: 100px; 
+background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+width: 100px; 
+height: 100px; 
+background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+width: 100px; 
+height: 100px; 
+background-color: blue; 
 } 
+
 /* Activity 5 styles */ 
 .content5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px, 500px;
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200%; 
+  height: 125%; 
   background-color: red; 
+  grid-column: 1/6;
 } 
 .green5 { 
   width: 100px; 
@@ -144,9 +164,10 @@
 
 } 
 .blue5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  width: 200%; 
+  height: 125%; 
+  background-color: blue;  
+  grid-column: 1/6;
 } 
 /* Activity 6 styles */ 
 .content6 {
