@@ -1,29 +1,28 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #f2fdff;
+  --secondary-color: #5261aa;
+  --accent1-color: #519276;
+  --accent2-color: #c6c9d4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font:Montserrat;
+  --paragraph-font: Open Sans, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --headline-color-on-white: #5261aa;  /* headlines on a white background */ 
+  --headline-color-on-color: #f2fdff; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #5261aa; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f2fdff; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #519276 ;
+  --nav-link-color: #c6c9d4;
+  --nav-background-color: #00000;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #c6c9d4;
 }
 
 
