@@ -174,7 +174,7 @@ nav {
     margin-top: 100px;
 }
              
-.home-grid {
+.home-grid .rate-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);  
  }  
