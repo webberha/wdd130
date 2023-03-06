@@ -206,34 +206,29 @@ nav {
 .rates {
     position: relative;
 }
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: white;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+
 .cg3-card {
     grid-column: 2/4;
     grid-row: 2/4;
-    
-
+    padding-top: 50px;
 }
+
 .cg5-card {
     grid-column: 4/6;
     grid-row: 2/4;
+    padding-top: 50px;
 
 }
 .salmon5-card {
     grid-column: 6/8;
     grid-row: 2/4;
+    padding-top: 50px;
 
 }
 .salmon6-card {
     grid-column: 8/10;
     grid-row: 2/4;
+    padding-top: 50px;
  
 
 }
