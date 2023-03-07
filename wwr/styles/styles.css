@@ -205,6 +205,7 @@ nav {
 .raft-img {
     width: 400px;
     height: 300px;
+    padding: 1-px;
     
 }
 .home-grid {
@@ -248,24 +249,28 @@ nav {
     border-style: double;
     grid-column: 2/3;
     grid-row: 1/4;
+    padding: 10px;
 }
 
 .cg5-card {
     border-style: double;
     grid-column: 4/5;
     grid-row: 1/4;
+    padding: 10px;
 
 }
 .salmon5-card {
     border-style: double;
     grid-column: 6/7;
     grid-row: 1/4;
+    padding: 10px;
 
 }
 .salmon6-card {
     border-style: double;
     grid-column: 8/9;
     grid-row: 1/4;
+    padding: 10px;
  
 }
 .rivers-card    {
