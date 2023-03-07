@@ -27,6 +27,10 @@ nav a {
 .button-box {
     text-align: center;
 }
+.button-box1 {
+    text-align: center;
+    color: white;
+}
 
 main section {
     text-align: center;
@@ -58,6 +62,7 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
+    
 .book:hover, .join:hover {
     background-color: black;
     color: #E4C7BB;
@@ -123,6 +128,12 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
+.rates-title {
+    color: #d9c2a3;
+    font-family: 'M', 'Helvetica', 'sans-serif'; 
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 h2 {
     margin: 0;
@@ -140,11 +151,15 @@ footer .social img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+.cg3-card, .cg5-card, .salmon5-card, .salmon6-card {
+    margin: 200px 0;
+}
 .card-img {
     border: 10px solid #352510;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 main section img {
     box-sizing: border-box;
 }
@@ -165,6 +180,17 @@ nav {
     grid-row: 1/3;
     z-index: -1;
 }
+
+.rates {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0;
+}
+#rates-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
      
 #hero-msg h4 {
     color: white;
@@ -177,7 +203,7 @@ nav {
 }
     
 .raft-img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     
 }
@@ -190,6 +216,13 @@ nav {
     width: 300%;
 }
 
+#rates-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -100px;
+  
+}
+
 .rates-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -197,40 +230,43 @@ nav {
 
 #rates-img {
     width: 100%;
+
 }
 
 #rates-msg h1 {
     text-align: center;
-    color: black;
+    color: white;
+    align-content: baseline;
 } 
-.rates {
-    position: relative;
+.rates-img {
+    border: 10px solid #352510;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .cg3-card {
-    grid-column: 2/4;
-    grid-row: 2/4;
-    padding-top: 50px;
+    border-style: double;
+    grid-column: 2/3;
+    grid-row: 1/4;
 }
 
 .cg5-card {
-    grid-column: 4/6;
-    grid-row: 2/4;
-    padding-top: 50px;
+    border-style: double;
+    grid-column: 4/5;
+    grid-row: 1/4;
 
 }
 .salmon5-card {
-    grid-column: 6/8;
-    grid-row: 2/4;
-    padding-top: 50px;
+    border-style: double;
+    grid-column: 6/7;
+    grid-row: 1/4;
 
 }
 .salmon6-card {
-    grid-column: 8/10;
-    grid-row: 2/4;
-    padding-top: 50px;
+    border-style: double;
+    grid-column: 8/9;
+    grid-row: 1/4;
  
-
 }
 .rivers-card    {
     grid-column: 2/4;
@@ -273,6 +309,13 @@ nav {
     }
 
     #hero {
+        margin-top: 0;
+        
+    }
+    #rates {
+        margin-top: 0;
+    }
+    #rates_msg {
         margin-top: 0;
     }
     #hero-msg {
