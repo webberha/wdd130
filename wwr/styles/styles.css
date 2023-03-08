@@ -167,17 +167,6 @@ nav {
     grid-row: 1/3;
     z-index: -1;
 }
-
-.rates {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 0;
-}
-#rates-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
      
 #hero-msg h4 {
     color: white;
@@ -202,13 +191,6 @@ nav {
 
 .card-img, .mountains {
     width: 100%;
-}
-
-#rates-msg {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: -100px;
-  
 }
 
 .rates-grid {
