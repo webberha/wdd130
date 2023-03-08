@@ -124,6 +124,12 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
+.rates-title {
+    color: #d9c2a3;
+    font-family: 'M', 'Helvetica', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 h2 {
     margin: 0;
