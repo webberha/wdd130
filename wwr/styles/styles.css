@@ -204,7 +204,8 @@ nav {
 #rates-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: -100px;
+    margin-top: -210px;
+    padding: 50px;
 } 
 
 .rates-grid {
@@ -224,8 +225,8 @@ nav {
 } 
 .rates-img {
     border: 10px solid #352510;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .10s;
+    box-shadow: 10px 10px 10px #6f7364;
 }
 
 .cg3-card {
