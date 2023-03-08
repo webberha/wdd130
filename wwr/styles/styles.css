@@ -124,12 +124,6 @@ footer p a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
-.rates-title {
-    color: #d9c2a3;
-    font-family: 'M', 'Helvetica', 'sans-serif'; 
-    font-size: 2em;
-    margin-top: 10px;
-}
 
 h2 {
     margin: 0;
@@ -145,9 +139,6 @@ footer .social img {
     padding-top: 15px;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}
-.cg3-card, .cg5-card, .salmon5-card, .salmon6-card {
     margin: 200px 0;
 }
 .card-img {
