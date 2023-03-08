@@ -226,12 +226,13 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 .card-img {
-    width: 100%;
+    width: 200%;
+    height: auto;
    
 }
 
 #rates-img {
-    width: 100%;
+    width: 250%;
     padding: 5px;
 
 }
