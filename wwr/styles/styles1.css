@@ -213,17 +213,20 @@ nav {
     width: 100%;
 }
 
-//**
+
 #rates-msg {
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: -100px;
   
-} //* *//
+} 
 
 .rates-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+.card-img {
+    width: 100%;
 }
 
 #rates-img {
