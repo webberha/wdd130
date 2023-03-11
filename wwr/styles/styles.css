@@ -283,7 +283,7 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
-
+                    
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
