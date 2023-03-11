@@ -22,21 +22,20 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <style>
-        #feedback {
-            background-color: antiquewhite;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding: .5em;
-            /* make this element invisible until we are ready for it */
-            display: none;      
-        }
-        .moveDown {
-            margin-top: 3em;
-        }
-    </style>
+<main>
+    <form>
+        Name:
+        <input type="text" id="name" name="name">
+      
+        Age:
+        <input type="number" id="age" name="age">
+      
+        Comment:
+        <input type="text" id="comment" name="comment">
+      
+        Email:
+        <input type="email" id="email" name="email">
+      </form>
 
     <div id="feedback"></div>
         <script>
@@ -56,6 +55,24 @@
             document.body.classList.toggle('moveDown');
         });
         </script>
+</main>
+
+    <footer>
+        <p>Dry Oar &copy; 2023 - Helen Webber</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+         </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
                                          
-    </body>
+</body>
 </html>
