@@ -8,7 +8,7 @@
 
 nav a {
     text-align: center;
-    color: #F2FDFF;
+    color: black;
     text-decoration: none;
     padding: 35px;
 }
@@ -28,25 +28,24 @@ body {
     padding: 0;
 }
 header {
-    background-color: #F2FDFF;
+    background-color: #ced3e9;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 75px auto;
 }
              
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #BACEC5;
+    color: black;
 }
-
-.msg {
-    background-color: black;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+msg {
+   background-color: black;
+   padding: 35px;
+   grid-column: 6/10;
+   grid-row: 6/7;
+   box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
-    background-color: #5261aa;
+    background-color: #ced3e9;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -54,11 +53,11 @@ footer {
     align-items: center;
 }
 footer a {
-    color: #f2fdff;
+    color: black;
     text-decoration: none;
-}
+} 
 footer a:hover {
-    color: #E4C7BB;
+    color:;
     text-decoration: underline;
 }
 footer p {
@@ -66,7 +65,7 @@ footer p {
 }
 
 .logo {
-    width: 100px;
+    width: 125px;
 }
 .icon {
     width: 80px;
@@ -93,10 +92,6 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
-}
-
-main section img {
-    box-sizing: border-box;
 }
 
 nav {
