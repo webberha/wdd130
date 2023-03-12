@@ -1,3 +1,4 @@
+
 #content {
     max-width: 1600px;
     text-align: center;
@@ -5,25 +6,47 @@
 
 }
 
-.logo {
-    width: 80px;
+nav a {
+    text-align: center;
+    color: #F2FDFF;
+    text-decoration: none;
+    padding: 35px;
+}
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
 }
 
 body {
     background-color: #f2fdff;
-    font-family: Montserrat, Opens Sans, sans-seri;
+    font-family: Montserrat, Open Sans, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #f2fdff;
+    background-color: #F2FDFF;
     display: grid;
     grid-template-columns: 150px auto;
 }
+             
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
 
+.msg {
+    background-color: black;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 footer {
-    background-color: #f2fdff;
+    background-color: #5261aa;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -31,7 +54,7 @@ footer {
     align-items: center;
 }
 footer a {
-    color: #E4C7BB;
+    color: #f2fdff;
     text-decoration: none;
 }
 footer a:hover {
@@ -41,3 +64,112 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
+
+.logo {
+    width: 100px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.home-title {
+    color: #d9c2a3;
+    font-family: 'M', 'Helvetica', 'sans-serif'; 
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
