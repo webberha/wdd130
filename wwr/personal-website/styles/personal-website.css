@@ -30,7 +30,7 @@ body {
 header {
     background-color: #ced3e9;
     display: grid;
-    grid-template-columns: 75px auto;
+    grid-template-columns: 150px auto;
 }
              
 nav a:hover {
@@ -98,6 +98,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
 
 
 
