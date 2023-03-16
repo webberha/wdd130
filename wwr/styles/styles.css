@@ -307,16 +307,7 @@ nav {
     border: 1px solid #ccc;
     border-radius: 1em;
   }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
+
   
   label {
     /* Uniform size & alignment */
@@ -339,30 +330,15 @@ nav {
     border: 2px solid #999;
   }
   
-  input:focus,
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
   
-  textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
   
-    /* Provide space to type some text */
-    height: 10em;
-  }
+
   
-  .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
+
   
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-  }
+  
+  
+
   
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
