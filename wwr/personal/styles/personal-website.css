@@ -1,0 +1,66 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo {
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: pink;
+    padding: 10px 0;
+    color: black;
+}
+.fixed-header{
+    background-color: pink;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 5%;
+    margin: 0;
+    padding: 0;
+}
+.fixed-footer {
+    bottom: 0;
+    background-color: pink;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;            
+}  
+.fixed-header a {
+    color: black;
+    text-decoration: none;
+
+}
+.fixed-footer a {
+    color: black;
+    text-decoration: none;
+
+}
+.fixed-header a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.fixed-footer a:hover {
+    color: green;
+    text-decoration: underline;
+    
+}
+.fixed-footer p {
+    font-size: 1.5em;
+
+}
+.social img {
+    padding-top: 15px;
+}
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
