@@ -22,7 +22,7 @@ nav a {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: 100px; 
 }
-ski-box {
+.ski-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;

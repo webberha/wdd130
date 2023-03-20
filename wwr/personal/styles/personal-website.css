@@ -7,9 +7,42 @@ body {
     padding-left: 10px;
     padding-top: 10px;
 }
+.ski {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px; 
+    width: 100%;
+    background-color: white;
+}
+.ski h1, h2, button-box {
+    text-align: center;
+}
+.ski-img {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.button-box {
+    text-align: center;
+}
+.home-grid {
+    position : relative;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.home-text {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .fixed-header, .fixed-footer{
     width: 100%;
-    position: fixed;        
+    position: flex;        
     background: pink;
     padding: 10px 0;
     color: black;
@@ -25,6 +58,7 @@ body {
 .fixed-footer {
     bottom: 0;
     background-color: pink;
+    position: flex;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
