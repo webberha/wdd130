@@ -40,6 +40,10 @@ body {
     padding-left: 50px;
     padding-right: 50px;
 }
+#rainier h1, h2 {
+    text-align: center;
+
+}
 .fixed-header, .fixed-footer{
     width: 100%;
     position: flex;        
