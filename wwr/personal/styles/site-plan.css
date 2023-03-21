@@ -4,25 +4,25 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #ffffff;
-  --secondary-color:#7DC5EC;
-  --accent1-color: #F88DA5;
-  --accent2-color: #4E2D67;
+  --primary-color: #628caf;
+  --secondary-color:#909c5c;
+  --accent1-color: #FFFEFC;
+  --accent2-color: #354B6D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Montserrat, Arial, Helvetica, sans-serif;
   --paragraph-font: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #f88da5;  /* headlines on a white background */ 
-  --headline-color-on-color: #7dc5ec; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #4e2d67; /* paragraph text on a white background */ 
-  --paragraph-color-on-color:white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #4e2d67;
-  --nav-link-color: #4e2d67;
-  --nav-background-color: #c5cce7;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #7DC5EC;
+  --headline-color-on-white: #354b6d;  /* headlines on a white background */ 
+  --headline-color-on-color: black;/* headlines on a colored background */ 
+  --paragraph-color-on-white: #354b6d; /* paragraph text on a white background */ 
+  --paragraph-color-on-color:#FFFEFC; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #628caf;
+  --nav-link-color: black;
+  --nav-background-color: #628caf;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #909c5c;
 }
 
 

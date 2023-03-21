@@ -3,9 +3,9 @@ body {
     padding-bottom: 60px;
 }
 .logo {
-    width: 100px;
-    padding-left: 10px;
-    padding-top: 10px;
+    width: 175px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 .ski {
     display: grid;
@@ -22,6 +22,11 @@ body {
     margin-left: auto;
     margin-right: auto;  
     padding-top: 30px;
+}
+.container {
+    color: black;
+    text-align:inherit;
+    
 }
 
 .button-box {
@@ -42,8 +47,9 @@ body {
     padding-left: 50px;
     padding-right: 50px;
 }
-#rainier h1, h2 {
+#snow h1, h3 {
     text-align: center;
+    font-size:xx-large;
 
 }
 .infor {
@@ -51,6 +57,12 @@ body {
     grid-template: repeat(10,1fr);
     color: #354b6b;
     font-family: 'M', 'Helvetica', 'sans-serif';
+    padding-top: 20px;
+}
+.infor h2, h3 {
+    font-size: xx-large;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .infor-img {
@@ -60,16 +72,16 @@ body {
     box-shadow: 10px 10px 10px #628caf;
 }  
 .ski1-card {
-    border-style: double;
     grid-column: 2/3;
-    grid-row: 1/2;
-    padding: 10px;
+    grid-row: 1/10;
+    padding: 30px;
+    
 }
 .ski2-card {
-    border-style: double;
     grid-column: 4/5;
-    grid-row: 1/2;
-    padding: 10px;
+    grid-row: 1/10;
+    padding: 30px;
+    
 }
 .fixed-header, .fixed-footer{
     width: 100%;
@@ -81,10 +93,9 @@ body {
 .fixed-header{
     background-color: #628caf;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    padding: 5%;
+    font-size: 40px;
+    padding: 25px 50px;
     margin: 0;
-    padding: 0;
 }
 .fixed-footer {
     bottom: 0;
