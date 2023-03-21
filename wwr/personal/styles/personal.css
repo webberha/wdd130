@@ -126,6 +126,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
