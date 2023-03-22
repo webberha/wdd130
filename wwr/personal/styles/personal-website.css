@@ -14,11 +14,11 @@ body {
     width: 100%;
     background-color: #FFFEFC;
 }
-.ski h1, h2, button-box {
+.ski h1, h2 {
     text-align: center;
 }
 h1 {
-    text-align:center;
+    text-align: center;
 }
 .ski-img {
     width: 5%;
@@ -29,12 +29,32 @@ h1 {
 .container {
     color: black;
     text-align:inherit;
-    
+}
+.button-box {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+    background: #909c5c;
+    color: black;
+    padding: 25px 25px;
+    text-decoration: none;
 }
 
 .button-box {
-    text-align: center;
+    display: inline-block;
     font-size: xx-large;
+    background: #909c5c;
+    color: black;
+    padding: 25px 25px;
+    text-decoration:solid;
+}
+.book:hover, .learn:hover {
+    background-color: black;
+    color: #E4C7BB;    
 }
 .home-grid {
     position : relative;
@@ -86,7 +106,7 @@ h1 {
     padding: 30px;
     
 }
-.fixed-header, .fixed-footer{
+.fixed-header, .footer {
     width: 100%;
     position: relative;        
     background: #628caf;
@@ -131,7 +151,7 @@ footer a {
     color: #354B6D;
     text-decoration: underline;
 }
-footer a:hover {
+footer a:hover, button, button.box  {
     color: #354B6D;
     text-decoration: underline;
     
@@ -144,7 +164,7 @@ footer p {
     padding-top: 15px;
 }
 /* Some more styles to beutify this example */
-nav a{
+nav a {
     color: #fff;
     text-decoration: none;
     padding: 7px 25px;
