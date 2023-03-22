@@ -17,6 +17,9 @@ body {
 .ski h1, h2, button-box {
     text-align: center;
 }
+h1 {
+    text-align:center;
+}
 .ski-img {
     width: 5%;
     margin-left: auto;
@@ -54,9 +57,9 @@ body {
 }
 .infor {
     display: grid;
-    grid-template: repeat(10,1fr);
+    grid-template-columns: 1fr 1fr;
     color: #354b6b;
-    font-family: 'M', 'Helvetica', 'sans-serif';
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     padding-top: 20px;
 }
 .infor h2, h3 {
@@ -72,20 +75,27 @@ body {
     box-shadow: 10px 10px 10px #628caf;
 }  
 .ski1-card {
-    grid-column: 2/3;
-    grid-row: 1/10;
+    grid-column: 1/2;
+    grid-row: 1/4;
     padding: 30px;
     
 }
 .ski2-card {
-    grid-column: 4/5;
-    grid-row: 1/10;
+    grid-column: 2/4;
+    grid-row: 1/4;
     padding: 30px;
     
 }
 .fixed-header, .fixed-footer{
     width: 100%;
-    position: flex;        
+    position: relative;        
+    background: #628caf;
+    padding: 10px 0;
+    color: black;
+}
+footer {
+    width: 100%;
+    position: relative;      
     background: #628caf;
     padding: 10px 0;
     color: black;
@@ -97,10 +107,10 @@ body {
     padding: 25px 50px;
     margin: 0;
 }
-.fixed-footer {
+footer {
     bottom: 0;
     background-color: #628caf;
-    position: flex;
+    position: static;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -112,7 +122,7 @@ body {
     text-decoration: none;
 
 }
-.fixed-footer a {
+footer a {
     color: black;
     text-decoration: none;
 
@@ -121,12 +131,12 @@ body {
     color: #354B6D;
     text-decoration: underline;
 }
-.fixed-footer a:hover {
+footer a:hover {
     color: #354B6D;
     text-decoration: underline;
     
 }
-.fixed-footer p {
+footer p {
     font-size: 1.5em;
 
 }
