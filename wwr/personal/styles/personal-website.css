@@ -54,7 +54,7 @@ h1 {
 }
 .book:hover, .learn:hover {
     background-color: black;
-    color: #E4C7BB;    
+    color: #FFFEFC;    
 }
 .home-grid {
     position : relative;
