@@ -36,6 +36,86 @@
       </div>
   </section>
 </div>
+<style>
+    .accordion {
+      background-color:#d9c2a3;
+      color: #6f7364;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 40px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color:black; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1>ACTIVITY PROVIDERS</h1>
+    
+    <button class="accordion">Blue Sky Outfitters, Inc</button>
+    <div class="panel">
+        <h2>Exciting Whitewater Rafting Adventures - Full Day (Delicious Steak BBQ!)-Express Trips-Whitewater- River Tubing and Rentals- Best Guides & First Class Equipment. Blue Sky Outfitters is the top choice of Microsoft, Amazon, Facebook and the Boy Scouts of America . Expect the best since 1982! Contact
+            (800) 228-7238
+            Website
+            blueskyoutfitters.com
+            
+            Email
+            blueskyoutfitters@gmail.com</h2>
+    </div>
+    
+    <button class="accordion">Orion Expeditions</button>
+    <div class="panel">
+        <h2>Daily unhurried river trips with Orion. The Good Guides in the White Rafts! Wetsuits, courtesy shuttle, and personal professional guides. Based in Eastworth. Established 1978. Contact
+            (509) 548-1401, Website orionexp.com, Email
+            info@orionexp.com</h2>
+    </div>
+    
+    <button class="accordion">Wildwater River Guides</button>
+    <div class="panel">
+      <h2> Eastworth's best value, all inclusive half day whitewater rafting trips starting at $89. Along with a 5 star guest rating we have the highest guide certification standards in the Valley, and top of the line equipment. Book a trip today! (509) 470-8558 (800) 522-9453
+
+        Contact
+        (509) 470-8558
+        Contact
+        (800) 522-9453
+        Website
+        wildwater-river.com
+        
+        Email
+        info@wildwater-river.com</h2>
+    </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
 
     <main class="home-grid">
          <section class="rivers-card">
