@@ -120,11 +120,10 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: #354b6b;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    text-align: center;
     padding-top: 20px;
 }
 .rental h2 {
-    text-align: center;
+    text-align: left;
 }
    
 
