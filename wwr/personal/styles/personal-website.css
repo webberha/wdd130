@@ -158,7 +158,7 @@ h1 {
     padding: 10px 0;
     color: black;
 }
-.footer, .bottom {
+footer, .bottom {
     width: 100%;
     position: relative;      
     background: #628caf;
@@ -219,14 +219,13 @@ footer a {
     color: #354B6D;
     text-decoration: underline;
 }
-footer a:hover, button, button.box, bottom {
+footer a:hover, button, button.box, .bottom a:hover:{
     color: #354B6D;
     text-decoration: underline;
     
 }
 footer p {
     font-size: 1.5em;
-
 }
 .bottom p {
     font-size: 1.5em;
