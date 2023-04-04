@@ -1,6 +1,8 @@
 body {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+
 }
 .logo {
     width: 175px;
@@ -76,7 +78,7 @@ h1 {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
-.home-text, .lesson-text, .mountain-text {
+.home-text, .lesson-text {
     position: absolute;
     bottom: 50px;
     right: 50px;
@@ -88,7 +90,6 @@ h1 {
 #snow h1, h3 {
     text-align: center;
     font-size:xx-large;
-
 }
 .infor {
     display: grid;
@@ -146,35 +147,36 @@ h1 {
 
 .fixed-header, .footer {
     width: 100%;
+    height: 60%;
     position: relative;        
     background: #628caf;
     padding: 10px 0;
     color: black;
 }
-.header, .footer {
+.fixed-header, .footer {
     width: 100%;
+    height: 60%;
     position: relative;      
     background: #628caf;
     padding: 10px 0;
     color: black;
-}
-.bottom {
-    width: 100%;
-    position: relative;      
-    background: #628caf;
-    padding: 10px 0;
-    color: black;
-}
+}   
 .fixed-header {
     background-color: #628caf;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 40px;
-    padding: 25px 50px;
     margin: 0;
+}
+.mountain1 { display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #354b6b;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    
 
 }
-.three h3, h2 {
+.mountain1 h3, p {
     text-align: center;
+    font-size: xx-large;
 }
 .map-img {
     width: 100%;
