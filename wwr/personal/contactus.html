@@ -20,59 +20,54 @@
                 </div>
             </div>
     </header>
-    
-<main>
-    <form>
-        Name:
-        <input type="text" id="name" name="name">
-        Email:
-        <input type="email" placeholder="johndoe@example.com">
-        Subject:
-        <input type="subject" id="subject" name="subject" type="text"> 
-        Comment:
-        <textarea cols="30" rows="8"></textarea>
+    <div class="contactus">
+        <h1>Connect With Us</h1>
+        <p>We would love to hear from you.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+               <h3>Sent your request</h3> 
+                <form>
+                    <div class="input-row"></div>
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John Wright">
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="509-111-2222">
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="johnwright@gmail.com">
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="comment">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea cols="40" rows="20" placeholder="Your Message"></textarea>
+                    <button type="submit">SEND</button>
 
-    </form>
+               </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>contactus@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>509-111-2222</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>89 Snow Haven Rd, <br>
+                            Mt. Rainier, WA  99832</td>
+                    </tr>
 
-    <div id="feedback"></div>
-        <script>
-        // get the feedback div element so we can do something with it.
-        const feedbackElement = document.getElementById('feedback');
-        // get the form so we can read what was entered in it.
-        const formElement = document.forms[0];
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-            // stop the form from doing the default action.
-            e.preventDefault();
-            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            // make the feedback element visible.
-            feedbackElement.style.display = "block";
-            // add a class to move everything down so our message doesn't cover it.
-            document.body.classList.toggle('moveDown');
-        });
-        </script>
-</main>
-
-
-<footer>
-    <div class="fixed-footer">
-     <p>Mt. Rainier Ski and Snow Haven &copy; 2023 - Helen Webber</p>
-    <p><a href="site-plan.html">Site Plan</a></p>
-    <p><a href="contactus.html">Contact Us</a></p>
-    <div class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
-        </a>
-    </div>
-
-  </footer>
+                </table>
+            </div>
+        </div>
 
 
 </body>
