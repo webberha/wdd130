@@ -59,7 +59,7 @@ h1 {
     padding: 25px 25px;
     text-decoration:solid;
 }
-.book:hover, .learn:hover {
+.book:hover, .learn:hover, .group:hover {
     background-color: black;
     color: #FFFEFC;    
 }
@@ -224,15 +224,14 @@ nav a {
     display: inline-block;
 }
 .contactus {
-    width: 100%;
-    margin: 50px, auto;
+    width: 80%;
+    margin: 50px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
 .contact-box {
-    background: white;
+    background: #fff;
     display: flex;
-    font-size: 1.5em;
 }
 .contact-left {
     flex-basis: 60%;
@@ -278,8 +277,6 @@ label {
     margin-bottom: 6px;
     display: block;
     color: black;
-
-
 }
 button {
     background: black;
@@ -287,24 +284,24 @@ button {
     border: none;
     outline: none;
     color: #fff;
-    height: 50px;
-    border-radius: 60px;
-    margin-top: 10px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3)
 
 }
 .contact-left h3 {
     color: black;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 30px;
 
 }
-contact-right h3 {
+.contact-right h3 {
    color: black;
-   font-weight: 800;
+   font-weight: 600;
    margin-bottom: 30px;
 }
-tr td:first-child{
+tr td:first-child {
     padding-right: 30px
 }
 tr td {
